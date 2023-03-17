@@ -2,7 +2,7 @@ import subprocess
 from wxpy import *
 
 bot = Bot()
-admin = bot.friends().search("凌星尘")[0]
+admin = bot.friends().search("xxx")[0]
 
 def remote_shell(command):
     r = subprocess.run(
