@@ -5,7 +5,6 @@ import paramiko
 #基于用户名和密码SSHclient进行登录 步骤见代码
 #File Name:xxxxxw #文件的名字 看看就行
 
-'''
 #下面是回顾的代码插入的
 def mima():
     import configparser
@@ -41,7 +40,7 @@ print(stdout.read().decode("utf-8"))
 returncode = stdout.channel.recv_exit_status()  ###这一句要结合起来做显示的,是可以直接显示的，不过是吧上慢的命令结果进行存入显示
 #print(r"returncode:[{returncode}]")
 ssh.close()
-'''
+
 
 
 '''使用微信进行告警提醒 ：邮箱提醒有兴趣的可以去看看，在国内微信还是用的蛮多的，可以在微信上发指令对于运维猿来说再好不过了'''
